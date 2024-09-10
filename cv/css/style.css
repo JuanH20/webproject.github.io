@@ -128,3 +128,14 @@ textarea {
     font-family: Arsenal SC, 'Times New Roman', Times, serif;
     font-size: x-large;
 }
+
+.skillCard li {
+    border: solid 2px darkgreen;
+    margin: 8px;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #BCCB7A;
+    font-size: large;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
