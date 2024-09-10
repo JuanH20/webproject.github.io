@@ -1,0 +1,141 @@
+body {
+    margin: 14px;
+    background-color: rgb(253, 236, 194);
+}
+
+nav {
+    background-color: #f4b661;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border: solid 3px rgb(0, 0, 0);
+}
+
+footer {
+    background-color: #f4b661;
+    padding: 8px;
+    border: solid 3px rgb(0, 0, 0);
+    justify-content: center;
+    display: flex;
+    margin-top: 5px;
+}
+
+.splash h1 {
+    font-family: Anton SC, Arsenal SC, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    justify-content: center;
+    display: flex;
+    color: #000000;
+}
+
+.splash img {
+    border: solid 3px rgba(0, 0, 0, 0.77);
+    border-radius: 5px 5px 5px 5px;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.splash img:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
+}
+
+.splash p {
+    font-family: Arsenal SC, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+hr {
+    border-width: 6px;
+    border-radius: 10px;
+    border-color: rgb(183, 176, 176);
+}
+
+h2 {
+    color: rgb(181, 8, 8);
+    font-family: Anton SC, Arsenal SC, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-align: center;
+}
+
+a {
+    color: rgb(18, 33, 209);
+    text-decoration: none;
+    font-family: Arsenal SC, 'Times New Roman', Times, serif;
+}
+
+a:hover {
+    color: darkgreen;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 20px;
+    font-family: Arsenal SC, 'Times New Roman', Times, serif;
+}
+
+.card h3 {
+    text-align: center;
+    font-family: Anton SC, Arsenal SC, 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: rgb(238, 233, 221);
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgb(16, 15, 13);
+    border-radius: 15px;
+    background-color: #BCCB7A;
+    margin-bottom: 10px;
+    border: solid 2px rgb(2, 78, 2);
+}
+
+.card > img {
+    display: block;
+    margin: 8px auto 0px auto;
+    border: solid 2px rgba(0, 0, 0, 0.77);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+dl, ul, p {
+    font-family: Arsenal SC, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.one-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+label {
+    margin-top: 10px;
+}
+
+textarea {
+    margin-bottom: 10px;
+}
+
+#submission {
+    background-color: rgba(49, 186, 49, 0.736);
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: Arsenal SC, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+.skillCard li {
+    border: solid 2px darkgreen;
+    margin: 8px;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #BCCB7A;
+    font-size: large;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
